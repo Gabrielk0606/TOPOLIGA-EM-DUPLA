@@ -1,0 +1,51 @@
+CheckList
+Configurar:
+PC-01
+IP: 192.168.0.10 /24
+Máscara: 255.255.255.0
+Gateway: 192.168.0.1
+Hostname: PC-01
+PC-02
+IP: 172.16.0.10
+Máscara: 255.255.0.0
+Gateway: 172.16.0.1
+Hostname: PC-02
+Anotar cada comando para montar o Script
+SWITCH 1
+Hostname: SW-01
+Banner
+Usuário local
+Privilege 15
+Senha da enable
+Senha da console
+Domínio: 1rede.local
+Chave ssh 1024
+Senha da VTY
+Ativar login local na console e VTY
+IP na Vlan 1
+Encriptar senhas
+SWITCH 2 
+Hostname: SW-02
+banner
+Criar usuário local
+Privilege 15
+Senha da enable
+Senha da console
+Domínio: 1rede.local
+Chave ssh 1024
+Senha da VTY
+Ativar login local na console e VTY
+IP na VLAN 1
+Encriptar senhas
+ROTEADOR:
+Hostname: RT-01
+banner
+Senha da console
+Senha da VTY
+Ativar interfaces e colocar os IP em cada porta: g0/0 e g0/1
+Domínio: 1rede.local
+Chave ssh 1024
+Encriptar senhas
+Criar usuário local
+Ativar login local na console e VTY
+Privilege 15
